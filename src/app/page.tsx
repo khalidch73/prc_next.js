@@ -11,7 +11,7 @@ export default function Home() {
       alt="Khalid nawaz"
       className='rounded-full h-40 w-40 object-cover mb-4'/>
       <Link href="/posts" className='text-slate-50'>
-        Post
+        Posts
       </Link>
     </main>
   )
