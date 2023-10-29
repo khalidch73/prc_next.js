@@ -10,12 +10,12 @@ const Header =() => {
       </Image>
      </div>
       <ul className="flex space-x-8 font-semibold">
-        <li>
+        <li className="text-gray-900 hover:text-teal-500">
           <Link href="/">
           Home
           </Link>
         </li>
-        <li>
+        <li className="text-gray-900 hover:text-teal-500">
           <Link href="/Courses" >
           Courses
           </Link>

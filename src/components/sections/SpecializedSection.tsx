@@ -1,6 +1,11 @@
 import Button from "@/components/shared/Button"
 import Image from "next/image"
 import Metaverse from "@/components/Assest/metaverse.png"
+import Ai from "@/components/Assest/Ai.web.png"
+import Ambient from "@/components/Assest/Ambient.web.png"
+import Cloud from "@/components/Assest/cloud.png"
+import Genomics from "@/components/Assest/genomics.web.png"
+import Network from "@/components/Assest/network.web.png"
 const SpecializedSection = () => {
   return (
     <section className="max-w-screen-xl mx-auto">
@@ -33,29 +38,73 @@ const SpecializedSection = () => {
             </div>
         </div>
         {/*right side page */}
-        <div className="flex w-4/12 gap-x-4">
+        <div className="flex flex-col md:flex-col w-4/12 my-20 gap-4 ">
             <div className="flex-1">
             {/*1st */}
             <div className="flex gap-x-4">
-            <div className="rounded-full cursor-pointer">
-                <Image src={Metaverse} alt="Metaverse Image" className="w-40 h-40"></Image>
+            <div className="cursor-pointer gap-x-4">
+                <Image src={Metaverse} alt="Metaverse Image" className="object-cover w-50 h-50"></Image>
             </div>
-            <div>
-            <h4 className="pt-10 text-teal-800 font-semibold items-center ">Specialized Track</h4>  
+            <div className="text-center">
+            <h4 className="pt-10 text-teal-800 font-semibold">Specialized Track</h4>  
             <h2 className="font-bold text-lg">Web 3.0 (Blockchain) and Metaverse Specialization</h2>
+            </div> 
+            </div>
+            <div className="py-4"></div>
+            {/*2nd */}
+             <div className="flex gap-x-4">
+            <div className="cursor-pointer gap-x-4">
+            <Image src={Ai} alt="Metaverse Image" className="object-cover w-50 h-50"></Image>
+            </div>
+            <div className="text-center">
+            <h4 className="pt-10 text-teal-800 font-semibold">Specialized Track</h4>  
+            <h2 className="font-bold text-lg">Artificial Intelligence (AI) and Deep Learning Specialization</h2>
+           </div>
+           </div>
+           <div className="py-4"></div>
+           {/*3rd */}
+           <div className="flex gap-x-4">
+            <div className="rounded-full cursor-pointer">
+                <Image src={Cloud} alt="Metaverse Image" className="object-cover w-50 h-50"></Image>
+            </div>
+            <div className="text-center">
+            <h4 className="pt-10 text-teal-800 font-semibold items-center ">Specialized Track</h4>  
+            <h2 className="font-bold text-lg max-w-full">Cloud-Native Computing Specialization</h2>
             </div> 
             </div>
             <div className="py-4">
 
             </div>
-            {/*2nd */}
+            {/*4th */}
              <div className="flex gap-x-4">
             <div className="rounded-full cursor-pointer">
-            <Image src={Metaverse} alt="Metaverse Image" className="w-40 h-40"></Image>
+            <Image src={Ambient} alt="Metaverse Image" className="object-cover w-50 h-40"></Image>
             </div>
-            <div className="">
+            <div className="text-center">
             <h4 className="pt-10 text-teal-800 font-semibold items-center ">Specialized Track</h4>  
-            <h2 className="font-bold text-lg">Web 3.0 (Blockchain) and Metaverse Specialization</h2>
+            <h2 className="font-bold text-lg max-w-full ">Ambient Computing and IoT Specialization</h2>
+           </div>
+           </div>
+           <div className="py-4"></div>
+           {/*5th */}
+           <div className="flex gap-x-4">
+            <div className="rounded-full cursor-pointer">
+            <Image src={Genomics} alt="Metaverse Image" className="object-cover w-50 h-50 "></Image>
+            </div>
+            <div className="text-center">
+            <h4 className="pt-10 text-teal-800 font-semibold items-center ">Specialized Track</h4>  
+            <h2 className="font-bold text-lg max-w-full">Genomics and Bioinformatics Specialization</h2>
+           </div>
+           </div>
+           <div className="py-4"></div>
+           {/*6th */}
+           <div className="flex gap-x-4">
+            <div className="rounded-full cursor-pointer">
+            <Image src={Network} alt="Metaverse Image" className="object-cover w-50 h-50  "></Image>
+            </div>
+            <div className="text-center">
+            <h4 className="pt-10 text-teal-800 font-semibold items-center ">Specialized Track</h4>  
+            <h2 className="font-bold text-lg max-w-full">Network Programmability and Automation Specialization</h2>
            </div>
            </div>
            </div>
